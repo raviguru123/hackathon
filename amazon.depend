@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1474391234 source:/home/goparties/Desktop/amazon/main.cpp
+	<iostream>
+	"floor.h"
+
+1474392765 /home/goparties/Desktop/amazon/floor.h
+
