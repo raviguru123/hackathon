@@ -1,7 +1,7 @@
 #ifndef CEIL_H_INCLUDED
 #define CEIL_H_INCLUDED
-
 #include "floor.h"
+
 int ceil(node *root,int value)
 {
     if(root==NULL)

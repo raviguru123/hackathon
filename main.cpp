@@ -1,28 +1,22 @@
 #include <iostream>
-#include "floor.h"
-#include "ceil.h"
+#include <string>
+#include "subtree.h"
 using namespace std;
 
-int main()
+
+
+int main (void)
 {
-    node *root = newNode(8);
+    node *root1=newNode(10);
+    root1->left=newNode(5);
+    root1->left->left=newNode(8);
+    root1->right=newNode(11);
 
-    root->left = newNode(4);
-    root->right = newNode(12);
-
-    root->left->left = newNode(2);
-    root->left->right = newNode(6);
-
-    root->right->left = newNode(10);
-    root->right->right = newNode(14);;
-
-    for(int i = 0; i <16; i++)
-        cout<<i<<" "<<ceil(root, i)<<endl;
-
-        cout<<"ceil start from here"<<endl;
-
-
-    return 0;
-    cout << "Hello world!" << endl;
+    node *root2=newNode(10);
+    root2->left=newNode(9);
+    root2->left->left=newNode(8);
+    root2->right=newNode(11);
+    root2->right->right=newNode(12);
+    checkSubtree(root1,root2);
     return 0;
 }
