@@ -5,10 +5,14 @@
 
 1474392765 /home/goparties/Desktop/amazon/floor.h
 
-1474398254 source:/home/goparties/Desktop/hackathon/main.cpp
+1474483789 source:/home/goparties/Desktop/hackathon/main.cpp
 	<iostream>
 	<string>
-	"subtree.h"
+	<vector>
+	<stack>
+	"nextGreaterElement.h"
 
-1474397386 /home/goparties/Desktop/hackathon/subtree.h
+1474398547 /home/goparties/Desktop/hackathon/subtree.h
+
+1474484137 /home/goparties/Desktop/hackathon/nextGreaterElement.h
 
